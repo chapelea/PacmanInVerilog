@@ -1,0 +1,26 @@
+
+State Machine - |PacMan|MainModule:main_module|curState
+Name curState.END_GAME curState.STOP_DISP curState.VIEW_DISP curState.START_DISP curState.SET_POS curState.WAIT curState.GET_MAP curState.TRY_EAT curState.EAT curState.EAT_WAIT curState.GET_TARGET 
+curState.GET_TARGET 0 0 0 0 0 0 0 0 0 0 0 
+curState.EAT_WAIT 0 0 0 0 0 0 0 0 0 1 1 
+curState.EAT 0 0 0 0 0 0 0 0 1 0 1 
+curState.TRY_EAT 0 0 0 0 0 0 0 1 0 0 1 
+curState.GET_MAP 0 0 0 0 0 0 1 0 0 0 1 
+curState.WAIT 0 0 0 0 0 1 0 0 0 0 1 
+curState.SET_POS 0 0 0 0 1 0 0 0 0 0 1 
+curState.START_DISP 0 0 0 1 0 0 0 0 0 0 1 
+curState.VIEW_DISP 0 0 1 0 0 0 0 0 0 0 1 
+curState.STOP_DISP 0 1 0 0 0 0 0 0 0 0 1 
+curState.END_GAME 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |PacMan|MainModule:main_module|pacman_dy
+Name pacman_dy.00 pacman_dy.10 pacman_dy.01 
+pacman_dy.00 0 0 0 
+pacman_dy.01 1 0 1 
+pacman_dy.10 1 1 0 
+
+State Machine - |PacMan|MainModule:main_module|pacman_dx
+Name pacman_dx.00 pacman_dx.10 pacman_dx.01 
+pacman_dx.00 0 0 0 
+pacman_dx.01 1 0 1 
+pacman_dx.10 1 1 0 
