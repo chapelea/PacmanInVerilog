@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'RateDivider:div|reducedClk'
+Slack : -16.005
+TNS   : -449.045
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -8.519
+TNS   : -257.977
+
+Type  : Slow 1200mV 85C Model Setup 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -1.632
+TNS   : -15.473
+
+Type  : Slow 1200mV 85C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 32.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -0.624
+TNS   : -2.464
+
+Type  : Slow 1200mV 85C Model Hold 'RateDivider:div|reducedClk'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RateDivider:div|reducedClk'
+Slack : -1.285
+TNS   : -116.935
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.626
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'RateDivider:div|reducedClk'
+Slack : -14.263
+TNS   : -400.135
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.539
+TNS   : -224.807
+
+Type  : Slow 1200mV 0C Model Setup 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -1.471
+TNS   : -14.181
+
+Type  : Slow 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 33.503
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -0.522
+TNS   : -2.054
+
+Type  : Slow 1200mV 0C Model Hold 'RateDivider:div|reducedClk'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RateDivider:div|reducedClk'
+Slack : -1.285
+TNS   : -116.935
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.647
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.710
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'RateDivider:div|reducedClk'
+Slack : -7.192
+TNS   : -175.166
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -3.770
+TNS   : -97.366
+
+Type  : Fast 1200mV 0C Model Setup 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -0.302
+TNS   : -1.974
+
+Type  : Fast 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 36.358
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : -0.472
+TNS   : -1.868
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RateDivider:div|reducedClk'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RateDivider:div|reducedClk'
+Slack : -1.000
+TNS   : -91.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MainModule:main_module|DisplayController:dispController|CharacterDisplayController:charDispContr|charType[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.374
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.755
+TNS   : 0.000
+
+------------------------------------------------------------
